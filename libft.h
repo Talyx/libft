@@ -124,4 +124,15 @@ int					ft_str_c_count(char *str, char c);
 
 void				ft_strdel(char **as);
 
+void				ft_putchar(char c);
+
+void				ft_putnbr(int n);
+
+void				ft_putstr(char *s);
+
+char				**ft_split_clear(char **split);
+
+void				error_exit(char *str);
+
+
 #endif

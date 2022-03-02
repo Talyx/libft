@@ -25,7 +25,9 @@ SRC= \
 		./ft_split.c					./ft_strequ.c			\
 		./ft_strchr.c					./ft_ssplit.c			\
 		./ft_strcpy.c					./ft_atof.c			\
-		./ft_str_c_count.c
+		./ft_str_c_count.c				./ft_putchar.c			\
+		./ft_putstr.c					./ft_putnbr.c			\
+		./ft_error_exit.c				./ft_split_clear.c		\
 
 
 OBJCT= $(SRC:.c=.o)
