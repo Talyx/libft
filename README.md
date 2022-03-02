@@ -1,0 +1,32 @@
+# libft
+### Implementation of own library consisting of standard C language functions.
+##### Functions implemented in this library:
+[atof](https://github.com/Talyx/libft/blob/master/ft_atof.c) [atoi](https://github.com/Talyx/libft/blob/master/ft_atoi.c)
+[bzero](https://github.com/Talyx/libft/blob/master/ft_bzero.c) [calloc](https://github.com/Talyx/libft/blob/master/ft_calloc.c)
+[isalnum](https://github.com/Talyx/libft/blob/master/ft_isalnum.c) [isalpha](https://github.com/Talyx/libft/blob/master/ft_isalpha.c)
+[isascii](https://github.com/Talyx/libft/blob/master/ft_isascii.c) [isdigit](https://github.com/Talyx/libft/blob/master/ft_isdigit.c)
+[islower](https://github.com/Talyx/libft/blob/master/ft_islower.c) [isprint](https://github.com/Talyx/libft/blob/master/ft_isprint.c)
+[isspace](https://github.com/Talyx/libft/blob/master/ft_isspace.c) [isupper](https://github.com/Talyx/libft/blob/master/ft_isupper.c)
+[itoa](https://github.com/Talyx/libft/blob/master/ft_itoa.c) [strchr](https://github.com/Talyx/libft/blob/master/ft_strchr.c) 
+[strcpy](https://github.com/Talyx/libft/blob/master/ft_strcpy.c)[memccpy](https://github.com/Talyx/libft/blob/master/ft_memccpy.c)
+[memchr](https://github.com/Talyx/libft/blob/master/ft_memchr.c) [memcmp](https://github.com/Talyx/libft/blob/master/ft_memcmp.c)
+[memcpy](https://github.com/Talyx/libft/blob/master/ft_memcpy.c) [memmove](https://github.com/Talyx/libft/blob/master/ft_memmove.c)
+[memset](https://github.com/Talyx/libft/blob/master/ft_memset.c)
+[strdel](https://github.com/Talyx/libft/blob/master/ft_strdel.c) [strdup](https://github.com/Talyx/libft/blob/master/ft_strdup.c)
+[strequ](https://github.com/Talyx/libft/blob/master/ft_strequ.c) [strjoin](https://github.com/Talyx/libft/blob/master/ft_strjoin.c)
+[strlcat](https://github.com/Talyx/libft/blob/master/ft_strlcat.c) [strlen](https://github.com/Talyx/libft/blob/master/ft_strlen.c)
+[strmapi](https://github.com/Talyx/libft/blob/master/ft_strmapi.c) [strncmp](https://github.com/Talyx/libft/blob/master/ft_strncmp.c)
+[strncpy](https://github.com/Talyx/libft/blob/master/ft_strncpy.c) [strnstr](https://github.com/Talyx/libft/blob/master/ft_strnstr.c)
+[strrchr](https://github.com/Talyx/libft/blob/master/ft_strrchr.c) [strtrim](https://github.com/Talyx/libft/blob/master/ft_strtrim.c)
+[substr](https://github.com/Talyx/libft/blob/master/ft_substr.c) [split](https://github.com/Talyx/libft/blob/master/ft_split.c)
+[tolower](https://github.com/Talyx/libft/blob/master/ft_tolower.c) [toupper](https://github.com/Talyx/libft/blob/master/ft_toupper.c) 
+[ft_lstadd_front](https://github.com/Talyx/libft/blob/master/ft_lstadd_front.c) 
+[ft_lstadd_back](https://github.com/Talyx/libft/blob/master/ft_lstadd_back.c) [ft_lstclear](https://github.com/Talyx/libft/blob/master/ft_lstclear.c)
+[ft_lstdelone](https://github.com/Talyx/libft/blob/master/ft_lstdelone.c) [ft_lstiter](https://github.com/Talyx/libft/blob/master/ft_lstiter.c)
+[ft_lstlast](https://github.com/Talyx/libft/blob/master/ft_lstlast.c) [ft_lstnew](https://github.com/Talyx/libft/blob/master/ft_lstnew.c)
+[ft_lstsize](https://github.com/Talyx/libft/blob/master/ft_lstsize.c) [ft_putchar](https://github.com/Talyx/libft/blob/master/ft_putchar.c)
+[ft_putchar_fd](https://github.com/Talyx/libft/blob/master/ft_putchar_fd.c) [ft_putnbr](https://github.com/Talyx/libft/blob/master/ft_putnbr.c)
+[ft_putnbr_fd](https://github.com/Talyx/libft/blob/master/ft_putnbr_fd.c) [ft_putendl_fd](https://github.com/Talyx/libft/blob/master/ft_putendl_fd.c)
+[ft_putstr](https://github.com/Talyx/libft/blob/master/ft_putstr.c) [ft_putstr_fd](https://github.com/Talyx/libft/blob/master/ft_putstr_fd.c) 
+
+
