@@ -1,3 +1,19 @@
+#===============================================#
+#					 Colors						#
+#===============================================#
+
+FAIL =\033[91m
+GREEN =\033[32m
+OKCYAN =\033[96m
+WARNING =\033[93m
+RESET =\033[0m
+UP =\033[A
+CUT =\033[K
+
+#===============================================#
+# 					Vars						#
+#===============================================#
+
 SRC= \
 		./ft_atoi.c					./ft_strdup.c			\
 		./ft_bzero.c					./ft_strjoin.c			\
@@ -35,26 +51,38 @@ NAME= libft.a
 INCLUDES= ./
 HEADER=libft.h
 
+#===============================================#
+# 					Rules						#
+#===============================================#
+
 .PHONY: all clean fclean re so soclean
 
 all: $(NAME)
+	@echo "$(GREEN)Success$(RESET)"
 
 $(NAME): $(OBJCT)
-	ar rc $(NAME) $(OBJCT)
-	ranlib $(NAME)
+	@echo "$(OKCYAN)Build $(NAME) library...$(RESET)"
+	@ar rc $(NAME) $(OBJCT)
+	@ranlib $(NAME)
 
 %.o: %.c $(HEADER) Makefile
-	gcc -Wall -Wextra -Werror -c $< -o $@ -I $(INCLUDES)
+	@echo "$(WARNING)Compiling $@... $(RESET)"
+	@gcc -Wall -Wextra -Werror -c $< -o $@ -I $(INCLUDES)
+	@printf "$(UP)$(CUT)"
 
 clean:
-	rm -rf $(OBJCT)
+	@echo "$(FAIL)Cleaning $(NAME) obj files...$(RESET)"
+	@rm -rf $(OBJCT)
 
 soclean:
-	rm -rf *.so
+	@echo "$(FAIL)Remove libft.so...$(RESET)"
+	@rm -rf libft.so
 
 fclean: clean soclean
-	rm -rf $(NAME)
+	@echo "$(FAIL)Remove $(NAME)...$(RESET)"
+	@rm -rf $(NAME)
 so:
-	gcc -fPIC -Wall -Wextra -Werror -c  $(SRC)
-	gcc -shared -o libft.so *.o
+	@echo "$(OKCYAN)Build libft.so library...$(RESET)"
+	@gcc -fPIC -Wall -Wextra -Werror -c  $(SRC)
+	@gcc -shared -o libft.so *.o
 re: fclean all
